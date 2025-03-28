@@ -1,8 +1,8 @@
 // pages/index.js
-//import '../styles/prompt.css';
+import '../styles/prompt.css';
 export default function Home() {
     return (
-        <div>
+        <div className="container">
             <h1>Hello, Next.js!</h1>
 
             <h2>前言</h2>
@@ -43,7 +43,7 @@ export default function Home() {
             <p>还算正常，网页可以正常访问了（访问需要梯子，手机一开始没开梯子，就无法打开），开始编辑本文档。</p>
             
             <h2>5.页面样式设计</h2>
-            <p>用AI生成了另外一个带样式的页面，然后模仿学习修改了本文的样式。在本地预览时一切正常，但上传到vercel时报错，似乎是css的引用逻辑有误</p>
+            <p>用AI生成了另外一个带样式的页面，然后模仿学习修改了本文的样式</p>
             
         </div>
     );
